@@ -361,13 +361,13 @@ def create_changes_section(document, grouped_data, styles_config, fields_mapping
 
             for task_dict in tasks_list:
                 try:
-                    p_task = document.add_paragraph(style='List Number')
+                    p_task = document.add_paragraph(style='ListBullet')
                 except KeyError:
-                    logger.warning("Стиль 'List Number' не найден, используется 'ListBullet'.")
+                    logger.warning("Стиль 'ListBullet' не найден, используется 'List Number'.")
                     try:
-                        p_task = document.add_paragraph(style='ListBullet')
+                        p_task = document.add_paragraph(style='List Number')
                     except KeyError:
-                        logger.warning("Стиль 'ListBullet' не найден."); p_task = document.add_paragraph()
+                        logger.warning("Стиль 'List Number' не найден."); p_task = document.add_paragraph()
 
                 if fields_for_changes_display:
                     _add_task_fields_to_paragraph(p_task, task_dict, fields_for_changes_display,
