@@ -6,7 +6,7 @@
     "display_in_changes": false,
     "changes_order": 1,
     "changes_style": {"bold": true, "suffix": ": "},
-    "display_in_setup": true,
+    "display_in_setup": false,
     "setup_order": 1,
     "setup_style": {"bold": true, "suffix": ": "}
   },
@@ -16,7 +16,7 @@
     "report_label": "",
     "display_in_changes": false,
     "changes_style": {"new_line_before": false},
-    "display_in_setup": true,
+    "display_in_setup": false,
     "setup_order": 2,
     "setup_style": {"new_line_before": false, "prefix": " ", "suffix": ""}
   },

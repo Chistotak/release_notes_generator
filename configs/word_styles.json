@@ -6,9 +6,9 @@
     "heading2": "Calibri",
     "heading3": "Calibri"
   },
-"font_sizes": {
+  "font_sizes": {
     "default": 11,
-    "title": 20,
+    "title": 22,
     "heading1": 16,
     "heading2": 14,
     "heading3": 12,
@@ -17,9 +17,14 @@
     "table_content": 10
   },
   "paragraph_spacing": {
+    "before_title": 12,
     "after_title": 24,
+    "before_heading1": 18,
     "after_heading1": 12,
-    "after_heading2": 8,
+    "before_heading2": 12,
+    "after_heading2": 6,
+    "after_heading2_table": 6,
+    "before_heading3": 8,
     "after_heading3": 4,
     "list_item_before": 0,
     "list_item_after": 6
@@ -28,7 +33,7 @@
     "table_header_background": "D9E1F2"
   },
   "table_properties":{
-    "width_col1_percent": 30,
-    "width_col2_percent": 70
+    "width_col1_percent": 40,
+    "width_col2_percent": 60
   }
 }
