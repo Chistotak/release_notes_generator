@@ -1,0 +1,79 @@
+[
+  {
+    "csv_header": "Issue key",
+    "internal_name": "issue_key",
+    "report_label": "Задача",
+    "display_in_changes": false,
+    "changes_order": 1,
+    "changes_style": {"bold": true, "suffix": ": "},
+    "display_in_setup": true,
+    "setup_order": 1,
+    "setup_style": {"bold": true, "suffix": ": "}
+  },
+  {
+    "csv_header": "Summary",
+    "internal_name": "summary",
+    "report_label": "",
+    "display_in_changes": false,
+    "changes_style": {"new_line_before": false},
+    "display_in_setup": true,
+    "setup_order": 2,
+    "setup_style": {"new_line_before": false, "prefix": " ", "suffix": ""}
+  },
+  {
+    "csv_header": "Issue Type",
+    "internal_name": "issue_type",
+    "report_label": "Тип задачи",
+    "is_grouping_field_level2": true,
+    "display_in_changes": false,
+    "display_in_setup": false
+  },
+  {
+    "csv_header": "Fix Version/s",
+    "internal_name": "fix_versions_combined_display",
+    "report_label": "Версии компонента",
+    "display_in_changes": true,
+    "changes_order": 4,
+    "changes_style": {"new_line_before": true, "prefix": "Версии: "},
+    "display_in_setup": false
+  },
+  {
+    "csv_header": "Custom field (Description for the customer)",
+    "internal_name": "description_for_customer",
+    "report_label": "",
+    "display_in_changes": false,
+    "changes_order": 3,
+    "display_in_setup": false
+  },
+  {
+    "internal_name": "task_report_text",
+    "report_label": "",
+    "display_in_changes": true,
+    "changes_order": 3,
+    "changes_style": {"new_line_before": false},
+    "display_in_setup": false
+  },
+  {
+    "csv_header": "Custom field (Инструкция по установке)",
+    "internal_name": "setup_instructions",
+    "report_label": "",
+    "display_in_changes": false,
+    "display_in_setup": true,
+    "setup_order": 3,
+    "setup_style": {"new_line_before": true, "multiline": true}
+  },
+  {
+    "csv_header": "Inward issue link (Relates)",
+    "internal_name": "links_text",
+    "report_label": "Связанные задачи",
+    "display_in_changes": false,
+    "display_in_setup": false
+  },
+  {
+    "csv_header": "Priority",
+    "internal_name": "priority",
+    "report_label": "Приоритет",
+    "display_in_changes": false,
+    "display_in_setup": false
+  }
+]

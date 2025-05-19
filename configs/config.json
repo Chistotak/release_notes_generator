@@ -1,0 +1,39 @@
+{
+  "input_csv_file": "data/jira_export.csv",
+  "output_report_file_docx": "output/Release_Notes_{global_release_version}.docx",
+  "auto_detect_global_version": true,
+  "global_release_version": "{global_release_version}",
+  "report_title_template": "Отчет по релизу версия {global_release_version}",
+  "logo_path": "assets/logo.png",
+  "csv_encoding": "utf-8",
+  "csv_delimiter": ",",
+  "microservice_source_field_csv": "Fix Version/s",
+  "microservice_prefix_mapping": {
+    "IN": "phobos-integration",
+    "FR": "phobos-front",
+    "IP": "phobos-ip-checker",
+    "PR": "phobos-proxy",
+    "PP": "phobos-profile-provider",
+    "SC": "phobos-scoring-center",
+    "AM": "phobos-AFM",
+    "KF": "phobos-kafka-finder",
+    "IR": "phobos-iris",
+    "WF": "sc-workflow",
+    "NT": "phobos-notification",
+    "CA": "phobos-client-agent"
+  },
+  "fix_version_separators": [","],
+  "auto_detect_component_versions": true,
+  "microservices_versions_for_table": [
+  ],
+  "sort_microservices_by": "name_asc",
+  "sort_issue_types_order": ["Bug", "Story", "Task"],
+  "sort_tasks_within_group_by": "priority",
+  "priority_order": ["Highest", "High", "Medium", "Low", "Lowest"],
+  "report_section_titles": {
+    "main_changes": "Перечень изменений",
+    "system_setup": "Настройки системы"
+  },
+  "generate_docx": true,
+  "generate_pdf": false
+}
